@@ -1,0 +1,20 @@
+.h1
+{
+color: red;
+}
+.topinfo
+{
+    background: orange;
+    height: 50px;
+    z-index: 2000;
+    top: 0;
+    position: absolute;
+}
+.botinfo
+{
+    background: green;
+    height: 50px;
+    z-index: 2000;
+    bottom: 0;
+    position: absolute;
+}

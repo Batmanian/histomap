@@ -70,5 +70,7 @@
     "type": "git",
     "url": "git+https://github.com/picturepan2/spectre.git"
   },
-  "version": "0.5.8"
+  "version": "0.5.8",
+  "dependencies": {
+  }
 }

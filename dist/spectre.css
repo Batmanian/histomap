@@ -3580,3 +3580,20 @@ a.text-error:visited
 {word-wrap: break-word; word-break: break-word; 
     -webkit-hyphens: auto;            hyphens: auto;        -ms-hyphens: auto;
 }
+
+.h1
+{
+    color: red;
+}
+
+.topinfo
+{position: absolute; z-index: 2000; top: 0; height: 50px; 
+
+    background: orange;
+}
+
+.botinfo
+{position: absolute; z-index: 2000; bottom: 0; height: 50px; 
+
+    background: green;
+}

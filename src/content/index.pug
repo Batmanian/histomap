@@ -1,0 +1,41 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width,initial-scale=1')
+    title title
+    meta(name='author', content='Jack Dunstan')
+    meta(name='description', content='John Sharps Famous histomap Infographic' )
+    meta(name='keywords', content='Jhn Sharp, Histomap, Infographic')
+    link(rel='shortcut icon', href='notyet.ico', type='image/vnd.microsoft.icon')
+    link(rel='stylesheet', href='./dist/spectre.min.css', type='text/css')
+    script(src='https://code.jquery.com/jquery-3.3.1.min.js', integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js')    
+    script(type='text/javascript').
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-XXXXXXXX-Y']);
+      _gaq.push(['_trackPageview']);
+      (function()
+      {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  body
+    .container.background
+    .columns
+        .column.col-12
+            h1 Histomap
+            h2 Four thousand years of World History
+            h3 Relative power of contemporary states, nations and Empires
+        .column.col-12    
+            img(src="./dist/img/infographic.svg")
+            h1
+    columns
+        .column.col-12.topinfo
+            p info
+    columns
+        .column.col-12.botinfo  
+            p info
+        
+            
