@@ -64,7 +64,7 @@ gulp.task('docs', function() {
       suffix: '.min'
     }))
     .pipe(gulp.dest('./dist'));
-  gulp.src('./src/layouts/index.pug')
+  gulp.src('./src/layouts/devindex.pug')
     .pipe(pug({
       pretty: true
     }))
