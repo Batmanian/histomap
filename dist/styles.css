@@ -3,7 +3,12 @@
     background-color: #e9ddbe;
 }
 
-.middle img.colour
+.middle
+{
+    line-height: 0;
+}
+
+.middle img .colour
 {
     margin: 0; padding: 0;
 }

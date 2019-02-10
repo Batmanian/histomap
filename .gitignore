@@ -3,3 +3,5 @@ devassets/histomap\.code-workspace
 /node_modules
 
 .ai
+
+*.ai
