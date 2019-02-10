@@ -2,11 +2,15 @@
     background-color: #E9DDBE
 }
 .middle{
-    img.colour{
+    line-height: 0;
+    img
+        {
+            .colour{
         margin: 0;
         padding: 0;
-
+        
     }
+}
 }
 .topinfo {
     display: none;
