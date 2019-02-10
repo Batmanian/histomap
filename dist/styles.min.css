@@ -1,1 +1,1 @@
-.h1{color:red}.topinfo{position:absolute;z-index:2000;top:0;height:50px;background:orange}.botinfo{position:absolute;z-index:2000;bottom:0;height:50px;background:green}
+.background{background-color:#e9ddbe}.middle img{margin:0;padding:0}.topinfo{position:absolute;z-index:2000;top:0;display:none;height:50px;background:orange}.botinfo{position:fixed;z-index:2000;bottom:0;display:none;height:50px;background:green}

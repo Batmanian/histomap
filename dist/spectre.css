@@ -3581,19 +3581,24 @@ a.text-error:visited
     -webkit-hyphens: auto;            hyphens: auto;        -ms-hyphens: auto;
 }
 
-.h1
+.background
 {
-    color: red;
+    background-color: #e9ddbe;
+}
+
+.middle img
+{
+    margin: 0; padding: 0;
 }
 
 .topinfo
-{position: absolute; z-index: 2000; top: 0; height: 50px; 
+{position: absolute; z-index: 2000; top: 0; 
 
-    background: orange;
+    display: none; height: 50px; background: orange;
 }
 
 .botinfo
-{position: absolute; z-index: 2000; bottom: 0; height: 50px; 
+{position: fixed; z-index: 2000; bottom: 0; 
 
-    background: green;
+    display: none; height: 50px; background: green;
 }
