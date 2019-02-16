@@ -2708,9 +2708,28 @@ a.text-error:visited
     line-height: 0;
 }
 
-.middle img .colour
+.middle .bce,
+.middle .ce
+{
+    position: relative;
+}
+
+.middle .bce img,
+.middle .ce img
+{
+    position: relative;
+}
+
+.middle .bce img .colour,
+.middle .ce img .colour
 {
     margin: 0; padding: 0;
+}
+
+.middle .bce img .text,
+.middle .ce img .text
+{
+    position: relative; top: -2rem;
 }
 
 .topinfo

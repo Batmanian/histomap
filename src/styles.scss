@@ -1,16 +1,24 @@
 .background {
     background-color: #E9DDBE
 }
-.middle{
+
+.middle {
     line-height: 0;
-    img
-        {
-            .colour{
-        margin: 0;
-        padding: 0;
-        
+    .bce,
+    .ce {
+        position: relative;
+        img {
+            position: relative;
+            .colour {
+                margin: 0;
+                padding: 0;
+            }
+            .text {
+                position: relative;
+                top: -2rem;
+            }
+        }
     }
-}
 }
 .topinfo {
     display: none;
