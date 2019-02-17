@@ -1,3 +1,8 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
 .background
 {
     background-color: #e9ddbe;
@@ -5,7 +10,7 @@
 
 .middle
 {
-    line-height: 0; display: -ms-flexbox; display: flex;     flex-direction: column; -ms-flex-direction: column;
+    line-height: 0;     flex-direction: column; -ms-flex-direction: column;
 }
 
 .middle .bce,

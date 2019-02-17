@@ -2698,6 +2698,11 @@ a.text-error:visited
     -webkit-hyphens: auto;            hyphens: auto;        -ms-hyphens: auto;
 }
 
+html
+{
+    scroll-behavior: smooth;
+}
+
 .background
 {
     background-color: #e9ddbe;
@@ -2705,7 +2710,7 @@ a.text-error:visited
 
 .middle
 {
-    line-height: 0; display: -ms-flexbox; display: flex;     flex-direction: column; -ms-flex-direction: column;
+    line-height: 0;     flex-direction: column; -ms-flex-direction: column;
 }
 
 .middle .bce,

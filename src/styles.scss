@@ -1,42 +1,40 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
 .background {
     background-color: #E9DDBE
 }
 
 .middle {
-    line-height: 0;
-    display: flex;
-    flex-direction:  column ;
-
+    line-height: 0; 
+    //display: flex;
+    flex-direction: column;
     .bce,
     .ce {
         position: relative;
-        img{
+        img {
             display: block;
         }
-
-
-            .colour {
-                margin: 0;
-                padding: 0;
-                z-index: 2;
-                top : 0;
-                
-            }
-            .text {
-                position: absolute;
-                top: 0rem;
-                z-index: 3;
-                opacity: 0.1;
-            
-            }
-            .text:hover {
-                opacity: 1;
-           
-             
-            }
-            
+        .colour {
+            margin: 0;
+            padding: 0;
+            z-index: 2;
+            top: 0;
+        }
+        .text {
+            position: absolute;
+            top: 0rem;
+            z-index: 3;
+            opacity: 0.1;
+        }
+        .text:hover {
+            opacity: 1;
+        }
     }
 }
+
 .topinfo {
     display: none;
     background: orange;
