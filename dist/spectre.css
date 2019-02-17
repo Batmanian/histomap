@@ -2705,7 +2705,7 @@ a.text-error:visited
 
 .middle
 {
-    line-height: 0;
+    line-height: 0; display: -ms-flexbox; display: flex;     flex-direction: column; -ms-flex-direction: column;
 }
 
 .middle .bce,
@@ -2717,19 +2717,26 @@ a.text-error:visited
 .middle .bce img,
 .middle .ce img
 {
-    position: relative;
+    display: block;
 }
 
-.middle .bce img .colour,
-.middle .ce img .colour
-{
+.middle .bce .colour,
+.middle .ce .colour
+{z-index: 2; top: 0; 
+
     margin: 0; padding: 0;
 }
 
-.middle .bce img .text,
-.middle .ce img .text
+.middle .bce .text,
+.middle .ce .text
 {
-    position: relative; top: -2rem;
+    position: absolute; z-index: 3; top: 0rem; opacity: .1;
+}
+
+.middle .bce .text:hover,
+.middle .ce .text:hover
+{
+    opacity: 1;
 }
 
 .topinfo
