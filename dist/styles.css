@@ -1,8 +1,3 @@
-html
-{
-    scroll-behavior: smooth;
-}
-
 .background
 {
     background-color: #e9ddbe;
@@ -35,7 +30,7 @@ html
 .middle .bce .text,
 .middle .ce .text
 {
-    position: absolute; z-index: 3; top: 0rem; opacity: .1;
+    position: absolute; z-index: 3; top: 0rem; opacity: 1;
 }
 
 .middle .bce .text:hover,
@@ -48,6 +43,17 @@ html
 {position: absolute; z-index: 2000; top: 0; 
 
     display: none; height: 50px; background: orange;
+}
+
+.topinfo h1
+{
+    font-family: 'Abril Fatface', cursive; text-transform: uppercase;
+}
+
+.topinfo p.h2,
+.topinfo p.h3
+{
+    font-family: 'Josefin Sans', sans-serif; text-transform: uppercase;
 }
 
 .botinfo
