@@ -43,12 +43,28 @@
 .topinfo
 {z-index: 2000; top: 0; 
 
-    height: 10rem; text-align: center;
+    height: 10rem; text-align: center; /* Smartphones (portrait and landscape) ----------- */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+{
+    .topinfo
+    {
+        height: 8rem;
+    }
 }
 
 .topinfo h1
 {
-    font-family: 'Abril Fatface', cursive; font-size: 4rem; margin: 0; padding: 0; text-transform: uppercase;
+    font-family: 'Abril Fatface', cursive; font-size: 4rem; margin: 0; /* Smartphones (portrait and landscape) ----------- */ padding: 0; text-transform: uppercase;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+{
+    .topinfo h1
+    {
+        font-size: 2rem;
+    }
 }
 
 .topinfo p
@@ -67,9 +83,22 @@
 }
 
 .bottom
-{z-index: 2000; bottom: 0; 
+{z-index: 2000; bottom: 0; /* Smartphones (portrait and landscape) ----------- */ 
 
     height: 5rem;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+{
+    .bottom
+    {
+        height: 3rem;
+    }
+    .bottom p.left,
+    .bottom p.right
+    {
+        float: none; text-align: center;
+    }
 }
 
 .bottom p
