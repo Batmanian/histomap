@@ -1,23 +1,27 @@
 html {}
 
 .background {
-    background-color: #E9DDBE
+    background-color: #E9DDBE;
+    padding: 1rem;
 }
 
 .middle {
     line-height: 0; //display: flex;
     flex-direction: column;
+    outline: 2px solid black;
     .bce,
     .ce {
         position: relative;
         img {
             display: block;
+            
         }
         .colour {
             margin: 0;
             padding: 0;
             z-index: 2;
             top: 0;
+            
         }
         .text {
             position: absolute;
@@ -32,28 +36,58 @@ html {}
 }
 
 .topinfo {
-    display: none;
-    background: orange;
-    height: 50px;
+    //display: none;
+    //background: orange;
+    height: 10rem;
     z-index: 2000;
     top: 0;
-    position: absolute;
+    text-align: center;
+    //position: absolute;
     h1 {
         font-family: 'Abril Fatface', cursive;
         text-transform: uppercase;
+        font-size: 4rem;
+        padding: 0;
+        margin: 0;
     }
-    p.h2,
-    p.h3 {
+    p{
         font-family: 'Josefin Sans', sans-serif;
         text-transform: uppercase;
+        
+        padding: 0;
+        margin: 0;
+    
+    }
+    .h2
+    {
+         font-size: 0.9rem;
+    }
+    .h3
+    {
+        font-size: 0.6rem;
     }
 }
 
-.botinfo {
-    display: none;
-    background: green;
-    height: 50px;
+.bottom {
+ 
+    height: 5rem;
     z-index: 2000;
     bottom: 0;
-    position: fixed;
+
+    p{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 0.5rem;
+        margin: 1rem 0 1rem 0;
+        a{
+            color: black;
+        }
+    }
+    .left
+    {
+        float: left;
+    }
+    .right
+    {
+        float: right
+    }
 }
