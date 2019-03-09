@@ -11,8 +11,8 @@
 
 .middle .bce,
 .middle .ce
-{position: relative; border-width: 1px 2px 1px 2px; border-style: solid; 
-    border-color: #3b4351;
+{
+    position: relative;
 }
 
 .middle .bce img,
@@ -42,12 +42,12 @@
 
 .middle .bce:first-child
 {
-    border-width: 2px 2px 1px 2px;
+    outline-width: 2px 2px 1px 2px;
 }
 
 .middle .ce:last-child
 {
-    border-width: 1px 2px 2px 2px;
+    outline-width: 1px 2px 2px 2px;
 }
 
 .topinfo

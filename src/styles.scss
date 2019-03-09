@@ -15,9 +15,9 @@ html {}
     .bce,
     .ce {
         
-        border-color: $black;
-        border-style: solid ;
-        border-width: 1px 2px 1px 2px;
+        //outline-color: $black;
+        //outline-style: solid ;
+        //outline-width: 0.5px 1px 0.5px 1px;
         position: relative;
         img {
             display: block;
@@ -40,11 +40,11 @@ html {}
     }
     .bce:first-child
     {
-        border-width: 2px 2px 1px 2px;
+        outline-width: 2px 2px 1px 2px;
     }
     .ce:last-child
     {
-        border-width: 1px 2px 2px 2px;
+        outline-width: 1px 2px 2px 2px;
     }
 
 }
