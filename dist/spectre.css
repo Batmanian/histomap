@@ -2712,7 +2712,7 @@ a.text-error:visited
 .middle .bce,
 .middle .ce
 {position: relative; border-width: 1px 2px 1px 2px; border-style: solid; 
-    border-color: black;
+    border-color: #3b4351;
 }
 
 .middle .bce img,
@@ -2818,7 +2818,7 @@ a.text-error:visited
 
 .bottom p a
 {
-    color: black;
+    color: #3b4351;
 }
 
 .bottom .left

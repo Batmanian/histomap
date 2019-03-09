@@ -1,3 +1,6 @@
+$black: #3b4351;
+
+
 html {}
 
 .background {
@@ -12,7 +15,7 @@ html {}
     .bce,
     .ce {
         
-        border-color: black;
+        border-color: $black;
         border-style: solid ;
         border-width: 1px 2px 1px 2px;
         position: relative;
@@ -98,7 +101,7 @@ html {}
         font-size: 0.5rem;
         margin: 1rem 0 1rem 0;
         a {
-            color: black;
+            color: $black;
         }
     }
     .left {
