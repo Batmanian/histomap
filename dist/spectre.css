@@ -2706,7 +2706,17 @@ a.text-error:visited
 
 .middle
 {
-    line-height: 0;     flex-direction: column; -ms-flex-direction: column;
+    line-height: 0;     flex-direction: column; outline: 2px solid #3b4351; -ms-flex-direction: column;
+}
+
+.middle .columns
+{
+    margin: 0;
+}
+
+.middle .columns .column
+{
+    padding: 0;
 }
 
 .middle .bce,
