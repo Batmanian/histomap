@@ -36,6 +36,7 @@ html {}
             top: 0;
         }
         .text {
+            display: none; // for now
             position: absolute;
             top: 0rem;
             z-index: 3;

@@ -2740,8 +2740,9 @@ a.text-error:visited
 
 .middle .bce .text,
 .middle .ce .text
-{
-    position: absolute; z-index: 3; top: 0rem; opacity: 1;
+{position: absolute; z-index: 3; top: 0rem; 
+
+    display: none; opacity: 1;
 }
 
 .middle .bce .text:hover,
