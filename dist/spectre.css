@@ -2706,13 +2706,13 @@ a.text-error:visited
 
 .middle
 {
-    line-height: 0;     flex-direction: column; outline: 2px solid black; -ms-flex-direction: column;
+    line-height: 0;     flex-direction: column; -ms-flex-direction: column;
 }
 
 .middle .bce,
 .middle .ce
-{
-    position: relative;
+{position: relative; border-width: 1px 2px 1px 2px; border-style: solid; 
+    border-color: black;
 }
 
 .middle .bce img,
@@ -2738,6 +2738,16 @@ a.text-error:visited
 .middle .ce .text:hover
 {
     opacity: 1;
+}
+
+.middle .bce:first-child
+{
+    border-width: 2px 2px 1px 2px;
+}
+
+.middle .ce:last-child
+{
+    border-width: 1px 2px 2px 2px;
 }
 
 .topinfo

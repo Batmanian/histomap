@@ -8,9 +8,13 @@ html {}
 .middle {
     line-height: 0; //display: flex;
     flex-direction: column;
-    outline: 2px solid black;
+    //outline: 2px solid black;
     .bce,
     .ce {
+        
+        border-color: black;
+        border-style: solid ;
+        border-width: 1px 2px 1px 2px;
         position: relative;
         img {
             display: block;
@@ -31,6 +35,15 @@ html {}
             opacity: 1;
         }
     }
+    .bce:first-child
+    {
+        border-width: 2px 2px 1px 2px;
+    }
+    .ce:last-child
+    {
+        border-width: 1px 2px 2px 2px;
+    }
+
 }
 
 .topinfo {
